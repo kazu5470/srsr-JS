@@ -1,3 +1,5 @@
+// switchを使えば変数の値を指定して、指定した値ごとにそれに当てはまる場合の処理を返すことができる
+
 const ranking = 2;
 switch (ranking) {
     case 1:
