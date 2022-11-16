@@ -36,3 +36,11 @@ hello("Bob");
 //  処理;
 //  return 戻り値;
 // }
+
+function pi() {
+    return 3.14;
+}
+
+const a = pi();
+
+console.log(a);
