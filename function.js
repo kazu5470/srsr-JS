@@ -44,3 +44,5 @@ function pi() {
 const a = pi();
 
 console.log(a);
+
+// 関数名には先頭に数字を使えない、ハイフンも使うことができない
