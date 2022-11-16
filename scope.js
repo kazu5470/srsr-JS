@@ -36,3 +36,8 @@ const v = 1;
 function doSomething2() {
     const v = 2; // 35行目でvを宣言しているが、スコープが違うため、再度vを宣言できる
 }
+
+function doSomething3() {
+    const c = 3;
+    const c = 4;  // 変数名cは同一ブロック内ですでに宣言されているため、宣言できずエラーとなる
+}
