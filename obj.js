@@ -26,7 +26,7 @@ const book2 = {title: "我輩は猫である"}
 console.log(book2.title);  // ドット表記法
 console.log(book2["title"]);  // ブラケット表記法
 
-console.log(book2.author); // undefind  存在しないプロパティにアクセスしようとするとundefindとなる
+console.log(book2.author); // undefined  存在しないプロパティにアクセスしようとするとundefindとなる
 
 // プロパティの追加と上書き
 const book3 = {title: "我輩は猫である"}
@@ -38,3 +38,11 @@ const person = {name: "Alice", age: 20}
 person.name = "Bob";
 person["age"] = 25;
 console.log(person); // {name: "Bob", age: 25}
+
+
+//  変数を使ってプロパティにアクセスする
+const book4 = {title: "吾輩は猫である"}
+const b = "title";
+console.log(book4[b]); // 吾輩は猫である
+console.log(book.b); // undefined 変数を使ってプロパティにアクセスする場合、ドット表記法を使うとプロパティ名と判断されるためundefinedとなる
+
