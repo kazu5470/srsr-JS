@@ -16,3 +16,13 @@ const person = {
 
 person.greet();  // こんにちは
 
+
+// thisを使用し、オブジェクトを経由してプロパティにアクセスする
+const person2 = {
+    name:'Alice',
+    greet:function(){
+        console.log(`こんにちは、私は${this.name}です。`); //意図した動作をする
+    }
+}
+
+person.greet();
